@@ -11,6 +11,10 @@
 		074A1CC929A638C900EB22A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074A1CC829A638C900EB22A0 /* ContentView.swift */; };
 		074A1CCB29A638CA00EB22A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074A1CCA29A638CA00EB22A0 /* Assets.xcassets */; };
 		074A1CCE29A638CA00EB22A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074A1CCD29A638CA00EB22A0 /* Preview Assets.xcassets */; };
+		074A1CD829A63D1000EB22A0 /* Color+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074A1CD729A63D1000EB22A0 /* Color+ext.swift */; };
+		074A1CDC29A63F1000EB22A0 /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 074A1CDA29A63F1000EB22A0 /* PlayfairDisplay-Bold.ttf */; };
+		074A1CDD29A63F1000EB22A0 /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 074A1CDB29A63F1000EB22A0 /* PlayfairDisplay-Regular.ttf */; };
+		074A1CE129A6BEED00EB22A0 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074A1CE029A6BEED00EB22A0 /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		074A1CC829A638C900EB22A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		074A1CCA29A638CA00EB22A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		074A1CCD29A638CA00EB22A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		074A1CD729A63D1000EB22A0 /* Color+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+ext.swift"; sourceTree = "<group>"; };
+		074A1CDA29A63F1000EB22A0 /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		074A1CDB29A63F1000EB22A0 /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		074A1CDE29A63F5A00EB22A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		074A1CE029A6BEED00EB22A0 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +60,14 @@
 		074A1CC529A638C900EB22A0 /* Furniture */ = {
 			isa = PBXGroup;
 			children = (
+				074A1CDF29A6BEE200EB22A0 /* Screens */,
+				074A1CDE29A63F5A00EB22A0 /* Info.plist */,
+				074A1CD929A63F1000EB22A0 /* Fonts */,
 				074A1CC629A638C900EB22A0 /* FurnitureApp.swift */,
 				074A1CC829A638C900EB22A0 /* ContentView.swift */,
 				074A1CCA29A638CA00EB22A0 /* Assets.xcassets */,
 				074A1CCC29A638CA00EB22A0 /* Preview Content */,
+				074A1CD729A63D1000EB22A0 /* Color+ext.swift */,
 			);
 			path = Furniture;
 			sourceTree = "<group>";
@@ -65,6 +78,23 @@
 				074A1CCD29A638CA00EB22A0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		074A1CD929A63F1000EB22A0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				074A1CDA29A63F1000EB22A0 /* PlayfairDisplay-Bold.ttf */,
+				074A1CDB29A63F1000EB22A0 /* PlayfairDisplay-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		074A1CDF29A6BEE200EB22A0 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				074A1CE029A6BEED00EB22A0 /* HomeScreen.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +155,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074A1CDD29A63F1000EB22A0 /* PlayfairDisplay-Regular.ttf in Resources */,
+				074A1CDC29A63F1000EB22A0 /* PlayfairDisplay-Bold.ttf in Resources */,
 				074A1CCE29A638CA00EB22A0 /* Preview Assets.xcassets in Resources */,
 				074A1CCB29A638CA00EB22A0 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +169,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074A1CE129A6BEED00EB22A0 /* HomeScreen.swift in Sources */,
 				074A1CC929A638C900EB22A0 /* ContentView.swift in Sources */,
 				074A1CC729A638C900EB22A0 /* FurnitureApp.swift in Sources */,
+				074A1CD829A63D1000EB22A0 /* Color+ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +304,7 @@
 				DEVELOPMENT_TEAM = QYY3G6W6RG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Furniture/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +334,7 @@
 				DEVELOPMENT_TEAM = QYY3G6W6RG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Furniture/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
